@@ -1,0 +1,32 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:OnAppearing"
+             x:Class="OnAppearing.App">
+    <Application.Resources>
+        <ResourceDictionary Source="Resources/Styles.xaml" >
+
+            <Color x:Key="PrimaryColor">#ffffff</Color>
+            <Color x:Key="SecondaryColor">#000000</Color>
+            <Color x:Key="BlueSTPColor">#0A3250</Color>
+
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource SecondaryColor}" />
+                <Setter Property="FontFamily" Value="OpenSansRegular" />
+            </Style>
+
+            <Style TargetType="Button">
+                <Setter Property="TextColor" Value="{DynamicResource PrimaryColor}" />
+                <Setter Property="FontFamily" Value="OpenSansRegular" />
+                <Setter Property="BackgroundColor" Value="{DynamicResource SecondaryColor}" />
+                <Setter Property="Padding" Value="14,10" />
+            </Style>
+
+            <x:String x:Key="Gear">&#xf013;</x:String>
+            <x:String x:Key="Newspaper">&#xf1ea;</x:String>
+            <x:String x:Key="ArrowRotate">&#xf2f9;</x:String>
+
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="305" height="32.521" viewBox="0 0 305 32.521">
+  <g id="Search" transform="translate(0.25 -8.84)">
+    <line id="Linie_52" data-name="Linie 52" x2="305" transform="translate(-0.25 40.862)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Icon_awesome-search" data-name="Icon awesome-search" d="M23.224,20.359l-4.585-4.585a1.1,1.1,0,0,0-.782-.322h-.75a9.561,9.561,0,1,0-1.656,1.656v.75a1.1,1.1,0,0,0,.322.782l4.585,4.585a1.1,1.1,0,0,0,1.559,0l1.3-1.3a1.109,1.109,0,0,0,0-1.564ZM9.566,15.452a5.887,5.887,0,1,1,5.887-5.887A5.883,5.883,0,0,1,9.566,15.452Z" transform="translate(275.75 8.84)" fill="#a3a4a6"/>
+    <rect id="Rechteck_1737" data-name="Rechteck 1737" width="197.402" height="13.16" transform="translate(5.75 14.034)" fill="rgba(163,164,166,0.59)"/>
+  </g>
+</svg>

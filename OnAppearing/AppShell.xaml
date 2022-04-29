@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="OnAppearing.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:OnAppearing"
+    xmlns:fontAwesome="clr-namespace:FontAwesome"
+    FlyoutBackgroundColor="#0A3250"
+    FlyoutWidth="250">
+
+    <Shell.Resources >
+
+        <ResourceDictionary>
+            <Style x:Key="StandardStyle"
+                   TargetType="Element">
+                <Setter Property="Shell.BackgroundColor"
+                        Value="White" />
+                <Setter Property="Shell.ForegroundColor"
+                        Value="Gray" />
+                <Setter Property="Shell.TitleColor"
+                        Value="Gray" />
+                <Setter Property="Shell.DisabledColor"
+                        Value="#ffffff" />
+                <Setter Property="Shell.UnselectedColor"
+                        Value="Gray" />
+                <Setter Property="Shell.TabBarBackgroundColor"
+                        Value="White" />
+                <Setter Property="Shell.TabBarForegroundColor"
+                        Value="White" />
+                <Setter Property="Shell.TabBarUnselectedColor"
+                        Value="#ffffff" />
+                <Setter Property="Shell.TabBarTitleColor"
+                        Value="White" />
+
+            </Style>
+            <Style BasedOn="{StaticResource StandardStyle}"
+                   TargetType="TabBar" />
+            <Style BasedOn="{StaticResource StandardStyle}"
+                   TargetType="FlyoutItem" />
+
+            
+
+
+        </ResourceDictionary>
+    </Shell.Resources>
+
+    <Shell.ItemTemplate>
+        <DataTemplate>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.18*" />
+                    <ColumnDefinition Width="0.5*" />
+                </Grid.ColumnDefinitions>
+                <Image Source="{Binding Icon}" Margin="14" HeightRequest="20" />
+                <Label Grid.Column="1" Text="{Binding Title}" TextColor="White" VerticalTextAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Shell.ItemTemplate>
+
+    <Shell.MenuItemTemplate>
+        <DataTemplate>
+            <StackLayout Orientation="Vertical" HorizontalOptions="End">
+                <Grid  VerticalOptions="EndAndExpand">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.18*" />
+                        <ColumnDefinition Width="0.5*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image Source="{Binding Icon}" Margin="14" HeightRequest="20"  />
+                    <Label Grid.Column="1"  Text="{Binding Title}"  TextColor="White" VerticalTextAlignment="Center" />
+                </Grid>
+            </StackLayout>
+        </DataTemplate>
+    </Shell.MenuItemTemplate>
+
+    <Shell.FlyoutHeaderTemplate >
+        <DataTemplate>
+            <Grid BackgroundColor="#0A3250"
+                  HeightRequest="100" 
+                  VerticalOptions="StartAndExpand"
+                  HorizontalOptions="StartAndExpand">
+                <Image Aspect="AspectFit"
+                       Source="cloud.png"
+                       HorizontalOptions="StartAndExpand"
+                       VerticalOptions="StartAndExpand"
+                       ScaleX="0.7"
+                       ScaleY="0.7"
+                       TranslationX="-25"
+                       TranslationY="30"
+                       
+                       
+                       
+                      />
+
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
+    <ShellItem FlyoutItemIsVisible="False" Route="loginpage">
+        <ShellContent  ContentTemplate="{DataTemplate local:LoginPage}" />
+    </ShellItem>
+
+    <FlyoutItem Title="Suche"   >
+
+        <FlyoutItem.Icon >
+            <FontImageSource FontFamily="FS900" Glyph="{x:Static fontAwesome:FontAwesomeIcons.Search}" Color="White"  >
+            </FontImageSource>
+        </FlyoutItem.Icon>
+        <ShellContent ContentTemplate="{DataTemplate local:SearchPage}"
+                      Route="suche" />
+    </FlyoutItem>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <MenuItem Clicked="OnMenuItemClicked"
+              Text="Logout" >
+
+    </MenuItem>
+
+    <TabBar >
+        <ShellContent ContentTemplate="{DataTemplate local:LoginPage}"
+                      Route="login" />
+    </TabBar>
+
+
+
+
+
+
+
+
+
+
+
+
+</Shell>

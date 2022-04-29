@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="308.085" height="228.756" viewBox="0 0 308.085 228.756">
+  <defs>
+    <filter id="Rechteck_1534" x="0" y="0" width="305.085" height="93.32" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rechteck_1534-2" x="3" y="92.919" width="305.085" height="89.515" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rechteck_1534-3" x="3" y="175.919" width="305.085" height="52.837" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Favorites" transform="translate(-34.958 -2304.498)">
+    <g id="Document" transform="translate(43.958 2310.498)">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rechteck_1534)">
+        <rect id="Rechteck_1534-4" data-name="Rechteck 1534" width="287.085" height="75.32" rx="2" transform="translate(9 6)" fill="#fff"/>
+      </g>
+      <path id="file-word-solid" d="M11.718,7.114V0H1.255A1.252,1.252,0,0,0,0,1.255V25.528a1.252,1.252,0,0,0,1.255,1.255H18.832a1.252,1.252,0,0,0,1.255-1.255V8.37H12.973A1.259,1.259,0,0,1,11.718,7.114ZM14.7,13.392h1.25a.628.628,0,0,1,.612.769l-1.988,8.788a.622.622,0,0,1-.612.486H11.979a.627.627,0,0,1-.607-.476c-1.35-5.414-1.088-4.248-1.339-5.78h-.026c-.058.748-.126.91-1.339,5.78a.627.627,0,0,1-.607.476H6.12a.627.627,0,0,1-.612-.492L3.531,14.155a.626.626,0,0,1,.612-.764H5.425a.627.627,0,0,1,.617.507c.816,4.08,1.051,5.728,1.1,6.392.084-.534.382-1.711,1.538-6.419a.623.623,0,0,1,.612-.476h1.522a.627.627,0,0,1,.612.481c1.255,5.252,1.507,6.487,1.548,6.769-.01-.586-.136-.931,1.13-6.759A.606.606,0,0,1,14.7,13.392Zm5.383-7.015V6.7h-6.7V0h.319A1.255,1.255,0,0,1,14.6.366l5.121,5.127A1.251,1.251,0,0,1,20.088,6.377Z" transform="translate(10.044 10.044)" fill="#91939d"/>
+      <g id="Chronologisches_Datum" data-name="Chronologisches Datum" transform="translate(43.523 26.356)">
+        <path id="calendar-day-solid_1_" data-name="calendar-day-solid (1)" d="M0,9.1a.942.942,0,0,0,.942.942H7.847A.942.942,0,0,0,8.788,9.1V3.766H0ZM1.255,5.336a.315.315,0,0,1,.314-.314H3.453a.315.315,0,0,1,.314.314V7.219a.315.315,0,0,1-.314.314H1.569a.315.315,0,0,1-.314-.314Zm6.591-4.08H6.905V.314A.315.315,0,0,0,6.591,0H5.964A.315.315,0,0,0,5.65.314v.942H3.139V.314A.315.315,0,0,0,2.825,0H2.2a.315.315,0,0,0-.314.314v.942H.942A.942.942,0,0,0,0,2.2v.942H8.788V2.2A.942.942,0,0,0,7.847,1.255Z" transform="translate(0 1.949)" fill="#a3a4a6"/>
+      </g>
+      <rect id="Dokumentkategorie" width="11" height="10" rx="1" transform="translate(43.043 9.665)" fill="#7499e0"/>
+      <path id="info-circle-solid_1_" data-name="info-circle-solid (1)" d="M15.49,8a7.49,7.49,0,1,0,7.49,7.49A7.491,7.491,0,0,0,15.49,8Zm0,3.322a1.269,1.269,0,1,1-1.269,1.269A1.269,1.269,0,0,1,15.49,11.322Zm1.691,7.672a.362.362,0,0,1-.362.362H14.161a.362.362,0,0,1-.362-.362v-.725a.362.362,0,0,1,.362-.362h.362V15.974h-.362a.362.362,0,0,1-.362-.362v-.725a.362.362,0,0,1,.362-.362h1.933a.362.362,0,0,1,.362.362v3.02h.362a.362.362,0,0,1,.362.362Z" transform="translate(229.862 2.044)" fill="#a3a4a6"/>
+      <path id="star-solid" d="M27.486.508,25.576,4.382,21.3,5.005a.937.937,0,0,0-.518,1.6l3.093,3.014-.731,4.257a.936.936,0,0,0,1.358.986l3.824-2.01,3.824,2.01a.936.936,0,0,0,1.358-.986l-.731-4.257L35.869,6.6a.937.937,0,0,0-.518-1.6l-4.275-.623L29.166.508a.937.937,0,0,0-1.679,0Z" transform="translate(241.2 10.231)" fill="#4e5155"/>
+      <line id="Linie_43" data-name="Linie 43" x2="287" transform="translate(0.043 48.665)" fill="none" stroke="#eee" stroke-width="1"/>
+      <rect id="Rechteck_1626" data-name="Rechteck 1626" width="77" height="10" transform="translate(60.042 9.665)" fill="rgba(78,81,85,0.59)"/>
+      <rect id="Rechteck_1627" data-name="Rechteck 1627" width="150" height="10" transform="translate(10.042 56.665)" fill="rgba(163,164,166,0.59)"/>
+      <rect id="Rechteck_1628" data-name="Rechteck 1628" width="61" height="10" transform="translate(57.042 28.665)" fill="rgba(163,164,166,0.59)"/>
+    </g>
+    <g id="Matter" transform="translate(43.958 2403.417)">
+      <g transform="matrix(1, 0, 0, 1, -9, -98.92)" filter="url(#Rechteck_1534-2)">
+        <rect id="Rechteck_1534-5" data-name="Rechteck 1534" width="287.085" height="71.515" rx="2" transform="translate(9 98.92)" fill="#fff"/>
+      </g>
+      <path id="Rechteck_1450" data-name="Rechteck 1450" d="M2,0H27.62a0,0,0,0,1,0,0V71.515a0,0,0,0,1,0,0H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" fill="#91939d"/>
+      <path id="folder-open-solid" d="M17.476,70.96l-2.21,3.789a1.953,1.953,0,0,1-1.687.969H1.374a.732.732,0,0,1-.633-1.1l2.21-3.789a1.953,1.953,0,0,1,1.687-.969h12.2A.732.732,0,0,1,17.476,70.96ZM4.638,68.882H14.647V67.418a1.465,1.465,0,0,0-1.465-1.465H8.3L6.347,64H1.465A1.465,1.465,0,0,0,0,65.465v8.485l2.108-3.614A2.939,2.939,0,0,1,4.638,68.882Z" transform="translate(5.859 -54.781)" fill="#fff"/>
+      <path id="star-solid-2" data-name="star-solid" d="M27.486.508,25.576,4.382,21.3,5.005a.937.937,0,0,0-.518,1.6l3.093,3.014-.731,4.257a.936.936,0,0,0,1.358.986l3.824-2.01,3.824,2.01a.936.936,0,0,0,1.358-.986l-.731-4.257L35.869,6.6a.937.937,0,0,0-.518-1.6l-4.275-.623L29.166.508a.937.937,0,0,0-1.679,0Z" transform="translate(243.711 6.883)" fill="#4e5155"/>
+      <path id="info-circle-solid_1_2" data-name="info-circle-solid (1)" d="M15.49,8a7.49,7.49,0,1,0,7.49,7.49A7.491,7.491,0,0,0,15.49,8Zm0,3.322a1.269,1.269,0,1,1-1.269,1.269A1.269,1.269,0,0,1,15.49,11.322Zm1.691,7.672a.362.362,0,0,1-.362.362H14.161a.362.362,0,0,1-.362-.362v-.725a.362.362,0,0,1,.362-.362h.362V15.974h-.362a.362.362,0,0,1-.362-.362v-.725a.362.362,0,0,1,.362-.362h1.933a.362.362,0,0,1,.362.362v3.02h.362a.362.362,0,0,1,.362.362Z" transform="translate(232.373 -1.128)" fill="#a3a4a6"/>
+      <rect id="Rechteck_1738" data-name="Rechteck 1738" width="68" height="8" transform="translate(39.042 8.746)" fill="rgba(78,81,85,0.72)"/>
+      <rect id="Rechteck_1739" data-name="Rechteck 1739" width="150" height="10" transform="translate(39.042 32.746)" fill="rgba(163,164,166,0.59)"/>
+      <rect id="Rechteck_1740" data-name="Rechteck 1740" width="210" height="10" transform="translate(39.042 50.746)" fill="rgba(163,164,166,0.59)"/>
+    </g>
+    <g id="Folder" transform="translate(43.958 2486.417)">
+      <g transform="matrix(1, 0, 0, 1, -9, -181.92)" filter="url(#Rechteck_1534-3)">
+        <rect id="Rechteck_1534-6" data-name="Rechteck 1534" width="287.085" height="34.837" rx="2" transform="translate(9 181.92)" fill="#fff"/>
+      </g>
+      <path id="Pfad_811" data-name="Pfad 811" d="M2,0H27.62V34.837H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" fill="#676d71"/>
+      <path id="folder-open-solid-2" data-name="folder-open-solid" d="M17.476,70.96l-2.21,3.789a1.953,1.953,0,0,1-1.687.969H1.374a.732.732,0,0,1-.633-1.1l2.21-3.789a1.953,1.953,0,0,1,1.687-.969h12.2A.732.732,0,0,1,17.476,70.96ZM4.638,68.882H14.647V67.418a1.465,1.465,0,0,0-1.465-1.465H8.3L6.347,64H1.465A1.465,1.465,0,0,0,0,65.465v8.485l2.108-3.614A2.939,2.939,0,0,1,4.638,68.882Z" transform="translate(5.859 -56.764)" fill="#fff"/>
+      <path id="star-solid-3" data-name="star-solid" d="M27.486.508,25.576,4.382,21.3,5.005a.937.937,0,0,0-.518,1.6l3.093,3.014-.731,4.257a.936.936,0,0,0,1.358.986l3.824-2.01,3.824,2.01a.936.936,0,0,0,1.358-.986l-.731-4.257L35.869,6.6a.937.937,0,0,0-.518-1.6l-4.275-.623L29.166.508a.937.937,0,0,0-1.679,0Z" transform="translate(243.711 5.22)" fill="#4e5155"/>
+      <path id="info-circle-solid_1_3" data-name="info-circle-solid (1)" d="M15.49,8a7.49,7.49,0,1,0,7.49,7.49A7.491,7.491,0,0,0,15.49,8Zm0,3.322a1.269,1.269,0,1,1-1.269,1.269A1.269,1.269,0,0,1,15.49,11.322Zm1.691,7.672a.362.362,0,0,1-.362.362H14.161a.362.362,0,0,1-.362-.362v-.725a.362.362,0,0,1,.362-.362h.362V15.974h-.362a.362.362,0,0,1-.362-.362v-.725a.362.362,0,0,1,.362-.362h1.933a.362.362,0,0,1,.362.362v3.02h.362a.362.362,0,0,1,.362.362Z" transform="translate(232.373 -2.791)" fill="#a3a4a6"/>
+      <rect id="Rechteck_1741" data-name="Rechteck 1741" width="68" height="8" transform="translate(39.042 9.746)" fill="rgba(78,81,85,0.72)"/>
+    </g>
+  </g>
+</svg>
